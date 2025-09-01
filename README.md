@@ -1,6 +1,6 @@
 # Fingerprint Recognition System
 
-This project implements a modular fingerprint recognition system for biometric authentication. It supports three main operations: **Enrollment**, **Verification (1:1 matching)**, and **Identification (1:N matching)**. The system is designed for extensibility, robust feature extraction, and ease of use via both command-line and graphical interfaces.
+This project implements a modular fingerprint recognition system for biometric authentication. It supports three main operations: **Enrollment**, **Verification (1:1 matching)**, and **Identification (1:N matching)**. The system is designed for extensibility, robust feature extraction, and ease of use via both command-line and graphical interfaces
 
 ## Features
 
