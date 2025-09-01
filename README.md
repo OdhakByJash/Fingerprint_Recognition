@@ -68,20 +68,6 @@ This project implements a modular fingerprint recognition system for biometric a
 - **Feature Extraction**: Compares standard crossing number method with RANSAC-based ridge curve fitting.
 
 
-
-## File Overview
-
-- `src/preprocessing.py`: Preprocessing pipeline (normalization, segmentation, enhancement, thinning).
-- `src/feature_extraction.py`: Minutiae extraction, filtering, visualization, template creation.
-- `src/matching.py`: Minutiae matching logic.
-- `src/database_operations.py`: SQLite database management.
-- `src/enroll.py`, `src/verify.py`, `src/identify.py`: CLI scripts for enrollment, verification, identification.
-- `src/main_gui.py`: Tkinter GUI application.
-- `src/utils.py`: Utility functions (plotting, array I/O).
-- `src/zhang_suen_thinning (1) - Copy.py`: Zhang-Suen thinning implementation and comparison.
-- `src/ransac_feature_extraction (1) - Copy.py`: RANSAC-based ridge curve and minutiae extraction.
-- `src/compare_algorithms (1) - Copy.py`: Algorithm comparison script.
-
 ## Requirements
 
 - Python 3.x
